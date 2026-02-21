@@ -22,15 +22,15 @@ Target: salary_more_then_100k (0=≤100k, 1=>100k)
 Perfect rules: "Masters = >100k salary!" <br>
 
 ## 🔥 Key Insights
-✅ 100% accuracy = Decision Trees SHINE on categorical data
-✅ No overfitting (small, clean dataset)
-✅ LabelEncoder perfect for company/job/degree
-✅ Clear business rules from tree visualization
+✅ 100% accuracy = Decision Trees SHINE on categorical data <br>
+✅ No overfitting (small, clean dataset) <br>
+✅ LabelEncoder perfect for company/job/degree <br>
+✅ Clear business rules from tree visualization <br>
 
 ## 💼 Business Rules
-✅ "Google Engineer + Masters = >100k" ✓
-✅ "Google Engineer + Bachelors = ≤100k" ✓
-✅ Recruiters/HR can read tree directly!
+✅ "Google Engineer + Masters = >100k" ✓ <br>
+✅ "Google Engineer + Bachelors = ≤100k" ✓ <br>
+✅ Recruiters/HR can read tree directly! <br>
 
 ## 🛠️ Files
 -salary_prediction_tree.py <br>
@@ -45,6 +45,9 @@ Salary	Jobs	100%	Categorical <br>
 **Progression**
 HR Trees(92%) → Salary Trees(100%) → Logistic Regression ⏳ <br>
 
-**Skills**: Categorical Trees | Label Encoding | Perfect Accuracy | Business Rules
-**Built with** ![Python](https://img.shields.io/badge/Python-3.11-green) ![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue)
+**Skills**: Categorical Trees | Label Encoding | Perfect Accuracy | Business Rules <br>
+<br>
+**Built with** ![Python](https://img.shields.io/badge/Python-3.11-green) <br>
+<br>
+![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue) <br>
 
