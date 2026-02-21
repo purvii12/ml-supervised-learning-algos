@@ -71,6 +71,6 @@ Progression
 Previous: [svm/](../svm/) → Decision Tree → Next: Logistic Regression
 KNN → SVM → Decision Tree = Classification mastery!
 
-Skills: Tree Visualization | Feature Importance | Interpretable ML | HR Analytics
-Built withPythonScikit-learn
+**Skills**: Tree Visualization | Feature Importance | Interpretable ML | HR Analytics
+**Built with**  ![Python](https://img.shields.io/badge/Python-3.11-green) ![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue)
 

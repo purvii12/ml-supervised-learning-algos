@@ -35,3 +35,13 @@ print("Random Forest Model Accuracy:", accuracy)
 # View feature importance (optional)
 feature_importances = pd.Series(model.feature_importances_, index=iris.feature_names)
 print("\nFeature Importances:\n", feature_importances)
+
+# Feature importance plot
+import matplotlib.pyplot as plt
+plt.figure(figsize=(10,6))
+feature_importances.sort_values().plot(kind='barh')
+plt.title('Random Forest Feature Importance (Iris Dataset)')
+plt.xlabel('Importance')
+plt.tight_layout()
+plt.savefig('feature_importance.png', dpi=300, bbox_inches='tight')
+plt.show()

@@ -41,10 +41,9 @@ Example	Dataset	Accuracy	Features
 HR Attrition	14,999 employees	92%	Numeric + salary
 Salary	Jobs	100%	Categorical
 
-Progression
-
+**Progression**
 HR Trees(92%) → Salary Trees(100%) → Logistic Regression ⏳
 
-Skills: Categorical Trees | Label Encoding | Perfect Accuracy | Business Rules
-Built withPythonScikit-learn
+**Skills**: Categorical Trees | Label Encoding | Perfect Accuracy | Business Rules
+**Built with** ![Python](https://img.shields.io/badge/Python-3.11-green) ![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue)
 

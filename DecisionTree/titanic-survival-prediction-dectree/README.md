@@ -41,3 +41,5 @@ Titanic	Historical	73.7%	Kaggle
 titanic_survival_tree.py
 titanic_tree.png
 titanic.csv (optional)
+
+**Built with** ![Python](https://img.shields.io/badge/Python-3.11-green) ![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue)
