@@ -3,10 +3,10 @@
 **Decision Tree Classification** predicting employee turnover with interpretable tree visualization!
 
 ## Dataset  
-**HR Analytics Dataset** (14,999 employees) - **SAME as SVM for algorithm comparison**
-Features: satisfaction_level, average_montly_hours, promotion_last_5years, salary (one-hot)
-Target: left (0=Stayed, 1=Left)
-Rich EDA: Left vs Retained employee analysis
+**HR Analytics Dataset** (14,999 employees) - **SAME as SVM for algorithm comparison** <br>
+Features: satisfaction_level, average_montly_hours, promotion_last_5years, salary (one-hot) <br>
+Target: left (0=Stayed, 1=Left) <br>
+Rich EDA: Left vs Retained employee analysis <br>
 
 ## 📊 Model Results  
 | Metric | Score |
@@ -24,9 +24,9 @@ Top 3 levels shown - fully interpretable! <br>
 feature_importances_ shows key predictors <br>
 satisfaction_level histogram for context <br>
 
+<img width="3547" height="1509" alt="tree_visualization" src="https://github.com/user-attachments/assets/22294ecc-35fa-4b4a-a617-144ed0486bd7" />
 
-![Decision Tree Visualization](DecisionTree/employee-attrition/tree_visualization.png) <br>
-![Employee Satisfaction Histogram](DecisionTree/employee-attrition/satisfaction_hist.png)
+<img width="2364" height="1464" alt="satisfaction_hist" src="https://github.com/user-attachments/assets/c16d0967-9667-47ea-83fe-65a243ec8be1" />
 
 
 
