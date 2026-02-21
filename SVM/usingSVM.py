@@ -63,4 +63,6 @@ plt.ylabel('Number of Employees', fontsize=12)
 plt.title('Distribution of Satisfaction Level', fontsize=14, fontweight='bold')
 plt.grid(axis='y', linestyle='--', alpha=0.6)
 plt.tight_layout()
+plt.savefig('satisfaction_hist.png', dpi=300, bbox_inches='tight')
 plt.show()
+
