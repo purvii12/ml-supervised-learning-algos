@@ -7,8 +7,6 @@ Input: Lot size (sq ft)
 Output: House price ($)
 Model: price = β₀ + β₁ × lotsize
 
-text
-
 Simple straight-line fit through housing data points.
 
 ## 📊 Results
@@ -18,26 +16,18 @@ Simple straight-line fit through housing data points.
 | **Test Samples** | 250 |
 | **Features** | 1 (lotsize) |
 
-**Visual**: Green dots = real test data, Red line = model predictions
+**Visual**: Green dots = real test data, Red line = model predictions 
 
-🛠️ Setup & Run
-bash
-pip install -r ../../../requirements.txt  # pandas, sklearn, matplotlib
-python housing_price.py
-Expected output: Scatter plot + R² score printed to console
+## 🛠️ Setup & Run <br>
+bash <br>
+pip install -r ../../../requirements.txt  # pandas, sklearn, matplotlib <br>
+python housing_price.py <br>
+Expected output: Scatter plot + R² score printed to console <br>
 
-💡 What I Learned
-✅ Single feature can predict housing prices reasonably well
+##💡 What I Learned
+✅ Single feature can predict housing prices reasonably well <br>
+✅ Manual train-test split works (though train_test_split() is better) <br>
+✅ Visualizing predictions immediately shows model quality <br>
+✅ reshape(-1, 1) required for sklearn 2D array format <br>
 
-✅ Manual train-test split works (though train_test_split() is better)
-
-✅ Visualizing predictions immediately shows model quality
-
-✅ reshape(-1, 1) required for sklearn 2D array format
-
-🗂️ Files
-text
-housing_price.py      # Main script
-housing_prediction.png # Model visualization
-Housing.csv          # Dataset 
 
