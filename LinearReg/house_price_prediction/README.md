@@ -17,12 +17,7 @@ Simple straight-line fit through housing data points.
 | **Features** | 1 (lotsize) |
 
 **Visual**: Green dots = real test data, Red line = model predictions 
-
-## 🛠️ Setup & Run <br>
-bash <br>
-pip install -r ../../../requirements.txt  # pandas, sklearn, matplotlib <br>
-python housing_price.py <br>
-Expected output: Scatter plot + R² score printed to console <br>
+![Housing Price Prediction](LinearReg/house_price_prediction/housing_prediction.png)
 
 ##💡 What I Learned
 ✅ Single feature can predict housing prices reasonably well <br>
