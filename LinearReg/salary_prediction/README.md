@@ -1,53 +1,34 @@
-text
+
 # 💰 Salary Prediction by Age (Univariate Linear Regression)
 
 **Predict employee salary using age as the single feature.** Clean visualization with business prediction example.
 
 ## What It Does
-Input: Employee Age
-Output: Predicted Salary ($)
-Model: salary = β₀ + β₁ × age
+Input: Employee Age<br>
+Output: Predicted Salary ($) <br>
+Model: salary = β₀ + β₁ × age <br>
 
-text
+**Business use**: "What salary should we offer a 27-year-old candidate?" <br>
 
-**Business use**: "What salary should we offer a 27-year-old candidate?"
 
-## 📊 Results
-| Metric | Value |
-|--------|-------|
-| **Age 27 Prediction** | $[RUN→ADD] |
-| **R² Score** | [RUN→ADD] |
-| **Slope (coef)** | [RUN→ADD] |
-| **Intercept** | [RUN→ADD] |
-| **Features** | 1 (Age) |
-
-🛠️ Setup & Run
-bash
-pip install -r ../../../requirements.txt
-python salary_age_prediction.py
-Outputs: Console predictions + scatter plot with green prediction dot
-
-📱 Visual Result
+##  Visual Result
 Salary Prediction
+<br>
+Blue dots = real data, Red line = model, Green dot = Age 27 prediction <br>
+<img width="1768" height="1361" alt="salary_age_prediction" src="https://github.com/user-attachments/assets/3173b6a1-27ab-4638-aa07-368d17542ca0" />
 
-Blue dots = real data, Red line = model, Green dot = Age 27 prediction
 
-💡 What I Learned
-✅ X = df[['Age']] creates 2D DataFrame (sklearn requirement)
 
-✅ [[27]] for single prediction (double brackets!)
+## 💡 What I Learned
+✅ X = df[['Age']] creates 2D DataFrame (sklearn requirement) <br>
+✅ [[27]] for single prediction (double brackets!) <br>
+✅ Business context visualization (green prediction point) <br>
+✅ Model equation: salary = intercept + slope × age <br>
 
-✅ Business context visualization (green prediction point)
+## 🔢 Model Equation
+salary = [intercept] + [slope] × age <br>
 
-✅ Model equation: salary = intercept + slope × age
-
-🔢 Model Equation
-text
-salary = [intercept] + [slope] × age
-(Run code to get exact numbers)
-
-🗂️ Files
-text
-salary_age_prediction.py     # Main script
-salary_age_prediction.png    # Perfect visualization
-salary_prediction.csv        # Dataset (optional)
+## 🗂️ Files
+-salary_age_prediction.py     # Main script <br>
+-salary_age_prediction.png    # Perfect visualization <br>
+-salary_prediction.csv        # Dataset (optional) <br>
