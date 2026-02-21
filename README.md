@@ -87,4 +87,6 @@ pip install -r requirements.txt
 -Model deployment (Streamlit/Flask) <br>
 -Cross-validation & hyperparameter tuning <br>
 
-👩‍💻 Built by Purvi Khandelwal | 📧 Contact via GitHub |🌐 LinkedIn 
+👩‍💻 Built by Purvi Khandelwal <br>
+| 📧 Contact via GitHub : https://github.com/purvii12/ <br>
+|🌐 LinkedIn : https://www.linkedin.com/in/purvi-khandelwal45/ <br>
