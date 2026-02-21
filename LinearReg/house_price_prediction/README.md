@@ -17,7 +17,7 @@ Simple straight-line fit through housing data points.
 | **Features** | 1 (lotsize) |
 
 **Visual**: Green dots = real test data, Red line = model predictions 
-![Housing Price Prediction](assets/housing_prediction.png)
+<img width="1606" height="1290" alt="housing_prediction" src="https://github.com/user-attachments/assets/8489efc1-060a-4fe7-b6c1-89becd8a7441" />
 
 ##💡 What I Learned
 ✅ Single feature can predict housing prices reasonably well <br>
