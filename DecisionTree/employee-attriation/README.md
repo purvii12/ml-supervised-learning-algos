@@ -20,46 +20,51 @@ Rich EDA: Left vs Retained employee analysis
 
 
 ## 🌿 Tree Visualization
-Top 3 levels shown - fully interpretable!
-feature_importances_ shows key predictors
-satisfaction_level histogram for context
+Top 3 levels shown - fully interpretable! <br>
+feature_importances_ shows key predictors <br>
+satisfaction_level histogram for context <br>
+
+
+![Decision Tree Visualization](DecisionTree/employee-attrition/tree_visualization.png) <br>
+![Employee Satisfaction Histogram](DecisionTree/employee-attrition/satisfaction_hist.png)
+
 
 
 ## 🔧 Pipeline Highlights
-✅ Complete EDA: Left vs Retained comparison
-✅ Smart feature selection (4 key HR factors)
-✅ Salary one-hot encoding
-✅ Decision tree visualization (plot_tree)
-✅ Feature importance ranking
-✅ Business prediction example
+✅ Complete EDA: Left vs Retained comparison <br>
+✅ Smart feature selection (4 key HR factors) <br>
+✅ Salary one-hot encoding <br>
+✅ Decision tree visualization (plot_tree) <br>
+✅ Feature importance ranking <br>
+✅ Business prediction example <br>
 
 
 ## 💼 Business Value
-"IF satisfaction_level < 0.5 AND hours > 220 → HIGH attrition risk"
-→ Direct actionable HR rules from tree!
+"IF satisfaction_level < 0.5 AND hours > 220 → HIGH attrition risk" <br>
+→ Direct actionable HR rules from tree! <br>
 
 ## 🛠️ Files
-employee_attrition_tree.py # Complete decision tree pipeline
-satisfaction_hist.png # Employee distribution
-tree_visualization.png # Decision tree plot
-HR_comma_sep.csv # Dataset (optional)
+-employee_attrition_tree.py # Complete decision tree pipeline<br>
+-satisfaction_hist.png # Employee distribution <br>
+-tree_visualization.png # Decision tree plot <br>
+-HR_comma_sep.csv # Dataset (optional) <br>
 
 
 
 ## Algorithm Showdown (SAME HR Dataset)
-Algorithm	Dataset	Strength
-KNN	Diabetes	Distance-based
-SVM (RBF)	HR	Non-linear boundary
-Decision Tree	HR	Interpretable rules
-Logistic Reg	⏳ Coming	Probabilities
+Algorithm	Dataset	Strength <br>
+KNN	Diabetes	Distance-based <br>
+SVM (RBF)	HR	Non-linear boundary <br>
+Decision Tree	HR	Interpretable rules <br>
+Logistic Reg	⏳ Coming	Probabilities <br>
 
 
 ## Key Decision Tree Advantages
-✅ Human-readable rules ("IF satisfaction < X AND hours > Y...")
-✅ Feature importance ranking
-✅ Handles categorical + numeric features
-✅ No feature scaling needed
-✅ Tree visualization for stakeholders
+✅ Human-readable rules ("IF satisfaction < X AND hours > Y...") <br>
+✅ Feature importance ranking <br>
+✅ Handles categorical + numeric features <br>
+✅ No feature scaling needed <br>
+✅ Tree visualization for stakeholders <br>
 
 
 ## Setup & Run
