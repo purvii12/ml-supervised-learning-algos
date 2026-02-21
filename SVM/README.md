@@ -1,7 +1,7 @@
-<img width="2364" height="1464" alt="satisfaction_hist" src="https://github.com/user-attachments/assets/edad299e-399c-43ec-afa0-3c0a90556433" />
-# Support Vector Machine: Employee Attrition Prediction
 
-**SVM Classification** predicting employee turnover using RBF kernel. HR analytics for retention strategy!
+# Support Vector Machine: Employee Attrition Prediction<br>
+
+**SVM Classification** predicting employee turnover using RBF kernel. HR analytics for retention strategy!<br>
 
 ## Dataset
 **HR Analytics Dataset** (14,999 employees)<br>
