@@ -3,10 +3,10 @@
 **Decision Tree Classification** predicting Titanic survival - **73.7% accuracy**
 
 ## Dataset
-**Titanic Dataset** (Kaggle classic)
-Features: Pclass, Sex(Encoded), Age(Median-filled), Fare(Median-filled)
-Target: Survived (0=Died, 1=Survived)
-Test accuracy: 73.7%
+**Titanic Dataset** (Kaggle classic) <br>
+Features: Pclass, Sex(Encoded), Age(Median-filled), Fare(Median-filled) <br>
+Target: Survived (0=Died, 1=Survived) <br>
+Test accuracy: 73.7% <br>
 
 ## 📊 Model Results  
 | Metric | Score |
@@ -16,25 +16,25 @@ Test accuracy: 73.7%
 | **Key Features** | Sex_n, Pclass, Age, Fare |
 
 ## 🌳 Tree Visualization
-![Titanic Decision Tree](titanic_tree.png)
-Captures "women and children first" policy perfectly!
+![Titanic Decision Tree](titanic_tree.png) <br>
+Captures "women and children first" policy perfectly! <br>
 
 ## 🔧 Production Pipeline
-✅ Median imputation → Age/Fare missing values
-✅ Sex LabelEncoder → male=1, female=0
-✅ Train/test split → Proper evaluation
+✅ Median imputation → Age/Fare missing values <br>
+✅ Sex LabelEncoder → male=1, female=0 <br>
+✅ Train/test split → Proper evaluation <br>
 
-## Decision Tree Mastery (3 PERFECT Examples)
-Example	Dataset	Accuracy	Domain
-HR Attrition	14,999 employees	92%	Business
-Salary Prediction	Jobs	100%	HR
-Titanic	Historical	73.7%	Kaggle
+## Decision Tree Mastery 
+Example	Dataset	Accuracy	Domain <br>
+HR Attrition	14,999 employees	92%	Business <br>
+Salary Prediction	Jobs	100%	HR <br>
+Titanic	Historical	73.7%	Kaggle <br>
 
 ##  Historical Accuracy
-✅ 73.7% = Solid baseline for Titanic
-✅ Trees naturally capture Pclass/Sex priority
-✅ Median imputation handles missing data
-✅ Ready for ensemble methods (Random Forest)
+✅ 73.7% = Solid baseline for Titanic <br>
+✅ Trees naturally capture Pclass/Sex priority <br>
+✅ Median imputation handles missing data <br>
+✅ Ready for ensemble methods (Random Forest) <br>
 
 
 ## 🛠️ Files
