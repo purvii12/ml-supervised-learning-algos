@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 # 2. Reading from dataset
-df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Python_basics\\HR_comma_sep.csv")
+df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\SVM\\HR_comma_sep.csv")
 
 
 # 3. Data exploration

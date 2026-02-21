@@ -9,7 +9,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 
 # 2. Load the dataset and create a DataFrame
-df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Python_basics\\HR_comma_sep.csv")
+df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\SVM\\HR_comma_sep.csv")
 print(df.head())  # Show the first 5 records
 print(df.describe())  # Show summary statistics
 
