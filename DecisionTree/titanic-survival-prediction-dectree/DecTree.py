@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 # Load dataset
-df = pd.read_csv('C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\DecisionTree\\titanic.csv')
+df = pd.read_csv('C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\DecisionTree\\titanic-survival-prediction-dectree\\titanic.csv')
 
 # Select required columns
 inputs = df[['Pclass', 'Sex', 'Age', 'Fare']]
@@ -14,7 +14,7 @@ target = df['Survived']
 inputs['Age'] = inputs['Age'].fillna(inputs['Age'].median())
 inputs['Fare'] = inputs['Fare'].fillna(inputs['Fare'].median())
 
-# Encode 'Sex'
+# Encode 'gender'
 le_sex = LabelEncoder()
 inputs['Sex_n'] = le_sex.fit_transform(inputs['Sex'])
 
@@ -28,6 +28,9 @@ X_train, X_test, y_train, y_test = train_test_split(inputs_n, target, test_size=
 model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 
+# Evaluate model
+score = model.score(X_test, y_test)
+print("Model accuracy score:", score)
 
 #visualization
 import matplotlib.pyplot as plt
@@ -37,11 +40,8 @@ plt.figure(figsize=(20,10))
 plot_tree(model, feature_names=inputs_n.columns, class_names=['Did Not Survive', 'Survived'],
           filled=True, rounded=True, fontsize=12)
 plt.title('Decision Tree Visualization for Titanic Survival Prediction')
+plt.savefig('titanic_tree.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 
-
-# Evaluate model
-score = model.score(X_test, y_test)
-print("Model accuracy score:", score)
 

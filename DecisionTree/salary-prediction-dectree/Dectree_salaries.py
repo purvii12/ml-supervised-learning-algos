@@ -1,11 +1,10 @@
 # DECISION TREE ON SALARIES DATA
-
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 # Load salaries dataset
-df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\DecisionTree\\salaries.csv")
+df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\DecisionTree\\salary-prediction-dectree\\salaries.csv")
 
 # Features and target
 inputs = df.drop('salary_more_then_100k', axis='columns')
@@ -47,4 +46,5 @@ plot_tree(model,
           rounded=True,
           fontsize=12)
 plt.title("Decision Tree for Salary Prediction")
+plt.savefig('tree_visualization.png', dpi=300, bbox_inches='tight')
 plt.show()

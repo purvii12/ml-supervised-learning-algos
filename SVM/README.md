@@ -10,14 +10,20 @@ Target: left (0=Stayed, 1=Left company)
 Same dataset as KNN - algorithm comparison!
 
 
-## 📊 Model Results
+
+## 📊 Model Results  
 | Metric | Score |
 |--------|-------|
-| **Precision (Left)** | [RUN→ADD] |
-| **Recall (Left)** | [RUN→ADD] |
-| **F1 Score (Left)** | [RUN→ADD] |
+| **Accuracy** | **78%** |
+| **Precision (Left)** | **1.00** |
+| **Recall (Left)** | **0.07** ⚠️ |
+| **F1 Score (Left)** | **0.14** ⚠️ |
 | **Kernel** | RBF |
 | **Features** | 6 |
+
+## 📈 Confusion Matrix Breakdown
+[[3428 0] ← PERFECT on "Stay" predictions (100% recall)
+[ 994 78]] ← Poor on "Leave" (only 7% recall)
 
 ## 🔧 Pipeline Highlights
 ✅ Feature selection: 4 key HR predictors

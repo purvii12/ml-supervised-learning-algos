@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report, confusion_matrix
-df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Python_basics\\HR_comma_sep.csv")
+df = pd.read_csv("C:\\Users\\Public\\Downloads\\AML\\FDS\\Unit1\\Assignments\\SupervisedML\\DecisionTree\\employee-attriation\\HR_comma_sep.csv")
 print(df.head())
 print(df.describe())  # Display the first few rows and summary statistics of the dataset
 
@@ -66,10 +66,13 @@ plt.ylabel('Number of Employees', fontsize=12)
 plt.title('Distribution of Satisfaction Level', fontsize=14, fontweight='bold')
 plt.grid(axis='y', linestyle='--', alpha=0.6)
 plt.tight_layout()
+plt.tight_layout()
+plt.savefig('satisfaction_hist.png', dpi=300, bbox_inches='tight')  # 👈 ADD THIS
 plt.show()
 
 
 plt.figure(figsize=(15,6))
 plot_tree(clf, feature_names=X.columns, class_names=['Not Left', 'Left'], filled=True, max_depth=3)
 plt.title('Decision Tree (Top 3 Levels)')
+plt.savefig('tree_visualization.png', dpi=300, bbox_inches='tight')  # 👈 ADD THIS
 plt.show()
