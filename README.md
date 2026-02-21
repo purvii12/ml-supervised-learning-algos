@@ -68,20 +68,20 @@ pip install -r requirements.txt
 
 ```
 
-🎓 Learning Journey
+## 🎓 Learning Journey<br>
 -Linear Regression - 4 examples showing progression <br>
 -KNN - Medical diagnosis (Diabetes prediction) <br>
 -SVM - HR analytics (employee retention) <br>
 -Decision Trees - 3 domains (HR/Salary/Titanic) <br>
 -Random Forest - Ensemble mastery (Iris benchmark) <br>
 
-💼 Business Applications <br>
+## 💼 Applications <br>
 -Healthcare: Diabetes screening (81.8% accuracy) <br>
 -HR Analytics: Employee attrition (92% trees, 78% SVM) <br>
 -Salary Prediction: Job market analysis (100% accuracy) <br>
 -Historical: Titanic survival patterns <br>
 
-🔮 Future Work
+## 🔮 Future Work<br>
 -Logistic Regression (binary classification) <br>
 -Neural Networks (deep learning) <br>
 -Model deployment (Streamlit/Flask) <br>
