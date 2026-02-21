@@ -1,5 +1,5 @@
 
-# Decision Tree: Salary Prediction (>100k?)
+# Decision Tree: Salary Prediction 
 
 **Decision Tree Classification** predicting high salaries - **PERFECT 100% accuracy** on categorical data!
 
@@ -17,8 +17,9 @@ Target: salary_more_then_100k (0=≤100k, 1=>100k)
 | **Features** | company_n, job_n, degree_n |
 
 ## 🌳 Tree Visualization
-![Salary Decision Tree](tree_visualization.png)
-Perfect rules: "Masters = >100k salary!"
+<img width="3780" height="1971" alt="tree_visualization" src="https://github.com/user-attachments/assets/046e447a-ffa9-4daa-ab47-e0c7563a6471" />
+
+Perfect rules: "Masters = >100k salary!" <br>
 
 ## 🔥 Key Insights
 ✅ 100% accuracy = Decision Trees SHINE on categorical data
@@ -32,17 +33,17 @@ Perfect rules: "Masters = >100k salary!"
 ✅ Recruiters/HR can read tree directly!
 
 ## 🛠️ Files
-salary_prediction_tree.py
-tree_visualization.png
-salaries.csv (optional)
+-salary_prediction_tree.py <br>
+-tree_visualization.png <br>
+-salaries.csv (optional) <br>
 
-## Decision Tree Mastery (2 Examples)
-Example	Dataset	Accuracy	Features
-HR Attrition	14,999 employees	92%	Numeric + salary
-Salary	Jobs	100%	Categorical
+## Decision Tree
+Example	Dataset	Accuracy	Features <br>
+HR Attrition	14,999 employees	92%	Numeric + salary <br>
+Salary	Jobs	100%	Categorical <br>
 
 **Progression**
-HR Trees(92%) → Salary Trees(100%) → Logistic Regression ⏳
+HR Trees(92%) → Salary Trees(100%) → Logistic Regression ⏳ <br>
 
 **Skills**: Categorical Trees | Label Encoding | Perfect Accuracy | Business Rules
 **Built with** ![Python](https://img.shields.io/badge/Python-3.11-green) ![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.5-blue)
